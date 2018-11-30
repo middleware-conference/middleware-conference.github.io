@@ -72,13 +72,15 @@
       <div class="container">
           <nav id="navigation1" class="navigation">
 
-	      <!--
+	      
               <div class="nav-header">
+		      <!--
                   <a class="nav-brand logo-white" href="#"><img src="assets/img/logo.png" alt="themeatom"></a>
                   <a class="nav-brand logo-black" href="#"><img src="assets/img/logo-black.png" alt="themeatom"></a>
+			-->
                   <div class="nav-toggle"></div>
               </div>
-	       -->
+	       
 
               <div class="nav-menus-wrapper">
 		  <!--
@@ -97,11 +99,21 @@
                       </li>
                     -->
 
-                      <li><a href="calls.html">Calls</a></li>
+     <!--                 <li><a href="calls.html">Calls</a></li> -->
+		      <li class="nav-active"><a href="#top">Calls</a>
+                          <ul class="nav-dropdown">
+                              <li><a href="research.html">Call for Research Papers</a></li>
+                          </ul>
+                      </li>
                       <li><a href="#schedule">Program</a></li>
                       <!--<li><a href="#pricing">Registration</a></li>-->
-                      <li><a href="organization.html">Organization</a></li>
-                      <li><a href="#participate">Participate</a></li>
+		      <li class="nav-active"><a href="#top">Organization</a>
+                          <ul class="nav-dropdown">
+                              <li><a href="organization.html">Organization Committee</a></li>
+				<li><a href="#program_section">Program Committee</a></li>
+                          </ul>
+                      </li>
+			<li><a href="#participate">Participate</a></li>
                       <!--
                       <li><a href="#">Pages</a>
                           <ul class="nav-dropdown">
@@ -141,7 +153,7 @@
       <div class="overlay-one">
           <div class="container">
                 <div class="eventup-page-hero-wrap">
-                    <h2 class="text-white eventup-page-title">Call for Regular Papers</h2>
+                    <h2 class="text-white eventup-page-title">Call for Research Papers</h2>
 		    <!--
                     <ol class="breadcrumb">
                       <li><a href="#">Home</a></li>
@@ -165,20 +177,42 @@
 		<!--
                 <h2 class="section-title mr-btm-10">Call for Regular Papers</h2>
 		 -->
+		<!--
                 <p class="section-title-devider mr-btm-10">~~~~~~~~~~~~~~~</p>
+		-->
               <p align="left">The annual ACM/IFIP/USENIX Middleware conference is a major forum for the discussion of innovations and recent scientific advances of middleware systems with a focus on the design, implementation, deployment, and evaluation of distributed systems, platforms and architectures for computing, storage, and communication. The conference will include a high quality single-track technical program, invited speakers, an industrial track, panel discussions involving academic and industry leaders, poster and demonstration presentations, a doctoral symposium, tutorials and workshops.</p>
-              <p><b> Abstract Submission: May 10, 2019 </b></p>
-              <p><b> Paper Submission: May 17, 2019 </b></p>
+            </div>
+            <!-- End Section Title -->
+		
+	    <!-- Section Title -->
+            <div class="section-title-wrap mr-btm-72 text-center">
+                <h2 class="section-title mr-btm-10">Important Dates</h2>	 
+                <p class="section-title-devider mr-btm-10">~~~~~~~~~~~~~~~</p>
+		 <table align="center">
+			<tbody>
+			<tr>
+				<td style="width:25px"><strong>Abstract Submission</strong></td>
+				<td style="width:25px"><strong>May 10, 2019<strong></td>
+			</tr>
+			<tr>
+				<td style="width:25px"><strong>Paper Submission </strong></td>
+				<td style="width:25px"><strong>May 17, 2019</strong></td>
+			</tr>
+			</tbody>
+		</table>
             </div>
             <!-- End Section Title -->
           
           <!-- Section Title -->
-            <div class="section-title-wrap mr-btm-72">
+	 
+		<div class="section-title-wrap mr-btm-72 text-center">
                 <h2 class="section-title mr-btm-10" align="center">Topics</h2>
-                <p class="section-title-devider mr-btm-10" align="center">~~~~~~~~~~~~~~~</p>
+                <p class="section-title-devider" align="center">~~~~~~~~~~~~~~~</p>
+		<div class="entry-content single-entry-post">
                 <p align="left">Original submissions of research papers on a diverse range of topics are sought, particularly those identifying new research directions. The topics of the interest for the conference include, but are not limited to: </p>
-                        <b>Platforms and Usage Models:</b>
-                        <ul style="list-style-type: square">
+                    <ul style="list-style-type:none" align="left">    
+		    <li><b>Platforms and Usage Models:</b></li>
+                        <ul style="list-style-type:circle">
                                         <li>Cloud, fog, edge computing and data centers</li>
                                         <li>Data-intensive computing (big data) and data analytics</li>
                                         <li>Mobile devices and services</li>
@@ -188,8 +222,8 @@
                                         <li>Internet-of-Things, cyber-physical systems, smart cities</li>
                                         <li>Machine learning</li>
                         </ul>
-                        <b> Systems and Engineering Issues:</b>
-                         <ul style="list-style-type:square">
+                        <li><b> Systems and Engineering Issues:</b></li>
+                         <ul style="list-style-type:circle">
                                         <li>Scalability and performance</li>
                                         <li>Reliability and fault tolerance</li>
                                         <li>Consistency, availability, and replication</li>
@@ -198,22 +232,24 @@
                                         <li>Real-time solutions and quality-of-service</li>
                                         <li>Energy- and power-aware techniques</li>
                         </ul>
-                        <b>Design Principles and Programming Support:</b>
-                                  <ul style="list-style-type:square">
+                        <li><b>Design Principles and Programming Support:</b></li>
+                                  <ul style="list-style-type:circle">
                                         <li>Programming abstractions and paradigms for middleware</li>
                                         <li>Methodologies and tools for the design, implementation, verification, and evaluation</li>
                                         <li>Event-based, publish/subscribe, and peer-to-peer solutions</li>
                                         <li>Reconfigurable, adaptable, and reflective approaches</li>
                                         <li>Reviews of middleware paradigms, e.g., object models, aspect orientation, etc.</li>
                                       </ul>
-                      <b>Original papers of three types are sought:</b>
-                                  <ul style="list-style-type:square">
+                      <li><b>Original papers of three types are sought:</b></li>
+                                  <ul style="list-style-type:circle">
                                        <li>Research Papers: These papers report original research on the above topics, and will be evaluated on significance of the problem, novelty of the solution, advancement beyond prior work, sufficient supporting evidence and clarity of the presentation.</li>
                                        <li>Experimentation and Deployment Papers: These papers describe complete systems, platforms, and/or comprehensive experimental evaluations of alternative designs and solutions to well-known problems. The emphasis during the evaluation of these papers will be less on the novelty and more on the demonstrated usefulness and potential impact of the contributions, the extensive experimentation involved, and the quality and weight of the lessons learned.</li>
                                        <li>Big Ideas Papers: These are papers that have the potential for opening up new research directions. For such papers, the potential to motivate new research is more important than full experimental evaluation, though some preliminary evidence of the effectiveness of the approach or idea is important.</li>
                                   </ul>
-          
+		</ul>
           </div>
+          </div>
+
           
 
                        <!-- Section Title -->
