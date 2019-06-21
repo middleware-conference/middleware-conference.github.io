@@ -4,15 +4,15 @@
 	    <div class="cbp-l-inline-title"><a href="http://www.brianfrankcooper.net/">Brian Cooper</a></div>
         <div class="cbp-l-inline-subtitle">Google</div>
 
-<!--        <div class="cbp-l-inline-desc">	-->
-	<div class="entry-content single-entry-post">
+        <div class="cbp-l-inline-desc">	
+<!--	<div class="entry-content single-entry-post">	-->
             <p><b>Title:</b> Why can't the bits sit still? The never ending challenge of data migrations.</p>
 			  <p><b>Abstract:</b> At Google, we are continually upgrading and optimizing our storage stack to make it more scalable, reliable, and efficient. This means that our data is constantly in motion:</p> 
-				<ui>
+				<ul>
 					<li>Migrating from one backend to another</li>
 					<li>Moving from one storage location to another</li>
 					<li>Moving between database schemas</li>
-				  </ui>
+				  </ul>
 			  <p>and so on. Unfortunately, such data migrations are among the hardest data management problems. Imagine all of the complexity of the source system, plus all of the complexity of the target system, plus all of the complexity of the migration middleware that is managing the movement of data between the two. The opportunities for bugs and misconfigurations is endless. Users rely on our Google Apps, such as Gmail and Calendar, for their day-to-day life and work. This means that those services cannot experience downtime! However a data migration is a ripe opportunity to create an outage. Ironically, during the very attempt to make our services better by upgrading our storage stack, we might actually make the service worse if we are not careful (and even if we are!)</p>
 			  <p>I will describe our experience with large scale data migrations at Google. I'll focus on some of the lessons we have learned in building middleware to support these migrations, as well as hard, unsolved problems faced trying to make migrations as reliable and efficient is possible.</p>
 			  <p><b>Bio:</b>Brian Cooper is a software engineer at Google. His team builds distributed infrastructure to support Google Apps. Previously, he worked on Spanner, Google's scalable, distributed database system. Before Google he did research on distributed database systems at Yahoo Research, working on the PNUTS database and the YCSB benchmark. Brian earned a PhD from Stanford University.</p>         
