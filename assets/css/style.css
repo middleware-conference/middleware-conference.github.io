@@ -3324,13 +3324,15 @@ textarea {
 .row1
 {
    display: inline-block;
-   margin-left: auto;
-   margin-right: auto;
+   float:left;
+   line-height:100px;
+   text-align:center;
 }
 
 .row2
 {
    display: inline-block;
-   margin-left: auto;
-   margin-right: auto;
+   float:left;
+   line-height:100px;
+   text-align:center;
 }
