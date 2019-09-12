@@ -3320,3 +3320,8 @@ textarea {
 .comments-form-wrap input[type=email]:focus:not([readonly]) {
   border: 1px solid #ccc;
 }
+
+.row1,row2
+{
+   display: inline-block
+}
