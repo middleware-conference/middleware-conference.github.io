@@ -3324,9 +3324,13 @@ textarea {
 .row1
 {
    display: inline-block;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 .row2
 {
    display: inline-block;
+   margin-left: auto;
+   margin-right: auto;
 }
