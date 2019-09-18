@@ -100,26 +100,27 @@
                     -->
 
      <!--                 <li><a href="calls.html">Calls</a></li> -->
-		        <li class="nav-active"><a href="#top">Calls</a>
-                  <ul class="nav-dropdown">
-                    <li><a href="research.html">Call for Research Papers</a></li>
-                    <li><a href="industry.html">Call for Industry Papers</a></li>
-                    <li><a href="demo.html">Call for Demos and Posters</a></li>
-                    <li><a href="workshop.html">Call for Workshops</a></li>
-                    <li><a href="tutorial.html">Call for Tutorials</a></li>
-                    <li><a href="doctoral.html">Call for Doctoral Symposium</a></li>
-                  </ul>
-              </li>
-              <li class="nav-active"><a href="#top">Program</a>
-                  <ul class="nav-dropdown">
-				            <li><a href="speakers.html">Keynote Speakers</a></li>
-                    <li><a href="#loading">Conference Program</a></li>
-				            <li><a href="workshop_accepted.html">Workshops</a></li>
-			            	<li><a href="blockchainday.html">Blockchain Day</a></li>
-                  </ul>
-              </li>
-                <!--<li><a href="#pricing">Registration</a></li>-->
-		          <li class="nav-active"><a href="#top">Organization</a>
+		      <li class="nav-active"><a href="#top">Calls</a>
+                          <ul class="nav-dropdown">
+                              <li><a href="research.html">Call for Research Papers</a></li>
+			      <li><a href="industry.html">Call for Industry Papers</a></li>
+			      <li><a href="demo.html">Call for Demos and Posters</a></li>
+            		      <li><a href="workshop.html">Call for Workshops</a></li>
+			      <li><a href="tutorial.html">Call for Tutorials</a></li>
+			      <li><a href="doctoral.html">Call for Doctoral Symposium</a></li>
+                          </ul>
+                      </li>
+                      <li class="nav-active"><a href="#top">Program</a>
+                          <ul class="nav-dropdown">
+				<li><a href="speakers.html">Keynote Speakers</a></li>
+                                <li><a href="#loading">Conference Program</a></li>
+				<li><a href="accepted.html">Accepted Papers</a></li>
+				<li><a href="workshop_accepted.html">Workshops</a></li>
+			<!--	<li><a href="blockchainday.html">Blockchain Day</a></li>	-->
+                          </ul>
+                      	</li>
+                      <!--<li><a href="#pricing">Registration</a></li>-->
+		      <li class="nav-active"><a href="#top">Organization</a>
                           <ul class="nav-dropdown">
                               <li><a href="organization.html">Organization Committee</a></li>
 				<li><a href="program.html">Program Committee</a></li>
@@ -127,7 +128,7 @@
                       </li>
 		      <li class="nav-active"><a href="#top">Participate</a>
                           <ul class="nav-dropdown">
-				 <li><a href="registration.html">Registration</a></li> 
+				<li><a href="registration.html">Registration</a></li>  
 			      <li><a href="venue.html">Conference Venue</a></li>
 				<li><a href="banquet.html">Banquet</a></li>
                               <li><a href="lodging.html">Lodging</a></li>
@@ -176,13 +177,7 @@
       <div class="overlay-one">
           <div class="container">
                 <div class="eventup-page-hero-wrap">
-                    <h2 class="text-white eventup-page-title">Call for Workshops</h2>
-		    <!--
-                    <ol class="breadcrumb">
-                      <li><a href="#">Home</a></li>
-                      <li class="active">Calls</li>
-                    </ol>
-		     -->
+                    <h2 class="text-white eventup-page-title">Accepted Papers</h2>
                 </div>
 
           </div>
@@ -194,98 +189,57 @@
     =========================== -->
     <section class="grid-section section-padding bg-gray" id="grid-section">
         <div class="container">
-
-            <!-- Section Title -->
-            <div class="section-title-wrap mr-btm-72 text-center">
-		<!--
-                <h2 class="section-title mr-btm-10">Call for Regular Papers</h2>
-		 -->
-		<!--
-                <p class="section-title-devider mr-btm-10">~~~~~~~~~~~~~~~</p>
-		-->
-              <p align="left">The annual ACM/IFIP Middleware conference is a major forum for the discussion of innovations and recent advances in the design, construction and use of middleware systems. Middleware is the software that resides between applications and the underlying architecture and platforms, often with an emphasis on networked computing. The goal of middleware is to facilitate the development of applications by providing higher-level abstractions for better programmability, performance, scalability, and security. It is a rapidly evolving and growing field. The Middleware conference traditionally includes a number of high-quality workshops. We invite experts on related research subjects to submit one-day or half-day workshop proposals in scope of Middleware 2019. Proposed workshops can be on any topic related to middleware, but we are particularly interested in new workshops in emerging middleware areas.</p>
-            </div>
-            <!-- End Section Title -->
 		
 	    <!-- Section Title -->
             <div class="section-title-wrap mr-btm-72">
-                <h2 class="section-title mr-btm-10">Important Dates</h2>	 
+	    	<h2 class="section-title mr-btm-10 text-center">Middleware 2019 - Accepted Papers</h2>
                 <p class="section-title-devider mr-btm-10">~~~~~~~~~~~~~~~</p>
 		   <div class="entry-content single-entry-post">
 		 <table align="center">
 			<tbody>
 			<tr>
-				<td style="width:25px"><strong>Proposal Submission</strong></td>
-				<td style="width:25px"><strong>May 24, 2019<strong></td>
+				<td style="width:25px"><strong>SlimGuard: A Secure and Memory-Efficient Heap Allocator</strong></td>
+				<td style="width:25px"><strong>Beichen Liu (Virginia Tech), Pierre Olivier (Virginia Tech), Binoy Ravindran (Virginia Tech)<strong></td>
 			</tr>
 			<tr>
-				<td style="width:25px"><strong>Proposal Acceptance Notification</strong></td>
-				<td style="width:25px"><strong>May 31, 2019</strong></td>
+				<td style="width:25px"><strong>EnclaveCache: A Secure and Scalable Key-valueCache in Multi-tenant Clouds using Intel SGX</strong></td>
+				<td style="width:25px"><strong>Lixia Chen (Shanghai Jiao Tong University), Jian Li (Shanghai Jiao Tong University), Ruhui Ma (Shanghai Jiao Tong University), Haibing Guan (Shanghai Jiao Tong University), Hans-Arno Jacobsen (University of Toronto)</strong></td>
 			</tr>
 			<tr>
-				<td style="width:25px"><strong>Website and CFP Online</strong></td>
-				<td style="width:25px"><strong>June 14, 2019</strong></td>
+				<td style="width:25px"><strong>DFDS 2019: 2nd International Workshop on Distributed Fog Services Design</strong></td>
+				<td style="width:25px"><strong><a href="http://www.dilute.no/dfsd">Link</a></strong></td>
 			</tr>
       <tr>
-				<td style="width:25px"><strong>Paper Submission</strong></td>
-				<td style="width:25px"><strong>August 30, 2019</strong></td>
+				<td style="width:25px"><strong>DIDL: Workshop on Distributed Infrastructures for Deep Learning</strong></td>
+				<td style="width:25px"><strong><a href="https://didl-conf.github.io/didl3/index.html">Link</a></strong></td>
 			</tr>
       <tr>
-				<td style="width:25px"><strong>Paper Notification</strong></td>
-				<td style="width:25px"><strong>September 27, 2019</strong></td>
+				<td style="width:25px"><strong>M4IOT 2019: 6th International Workshop on Middleware and Applications for the Internet of Things</strong></td>
+				<td style="width:25px"><strong><a href="http://www.m4iot.org/">Link</a></strong></td>
 			</tr>
       <tr>
-				<td style="width:25px"><strong>Paper Camera Ready</strong></td>
-				<td style="width:25px"><strong>October 18, 2019</strong></td>
+				<td style="width:25px"><strong>MECC 2019: 4th Workshop on Middleware for Edge Clouds & Cloudlets</strong></td>
+				<td style="width:25px"><strong><a href="https://mecc2019.dcc.fc.up.pt/">Link</a></strong></td>
 			</tr>     
+      <tr>
+				<td style="width:25px"><strong>MISE 2019: 1st International Workshop on Middleware for Lightweight, Spontaneous Environments</strong></td>
+				<td style="width:25px"><strong><a href="https://sites.google.com/utexas.edu/mise-2019/">Link</a></strong></td>
+			</tr>		
+      <tr>
+				<td style="width:25px"><strong>SERIAL: 3rd Workshop on Scalable and Resilient Infrastructures for Distributed Ledgers</strong></td>
+				<td style="width:25px"><strong><a href="https://serial.ibr.cs.tu-bs.de/serial19">Link</a></strong></td>
+			</tr>
+      <tr>
+				<td style="width:25px"><strong>WoSC: 5th Workshop on Serverless Computing</strong></td>
+				<td style="width:25px"><strong><a href="https://www.serverlesscomputing.org/wosc5/">Link</a></strong></td>
+			</tr>
       
 			</tbody>		
 		</table>
 		</div>
+		<p align="left"><strong>Participating students are invited to apply for Travel Grants.</strong></p>
             </div>
             <!-- End Section Title -->
-          
-          <!-- Section Title -->  
-
-                       <!-- Section Title -->
-            <div class="section-title-wrap mr-btm-72">
-                <h2 class="section-title mr-btm-10">Workshop Proposal Submission</h2>
-                <p class="section-title-devider mr-btm-10">~~~~~~~~~~~~~~~</p>
-		 <div class="entry-content single-entry-post">
-		    <p align="left">A workshop proposal (not exceeding three pages of 11pt single-spaced text, in PDF format) should include the following information:</b></p>
-        <ul>
-          <li>The title of the workshop;</li>
-          <li>The names and e-mail addresses of the organizing committee;</li>
-          <li>A brief technical description of the workshop topic area;</li>
-          <li>The history of the workshop, if applicable;</li>
-          <li>A short description of the intended format of the workshop (keynote speakers, discussions, etc.);</li>
-          <li>A description of the intended review process;</li>
-          <li>Tentative workshop paper submission and notification deadlines (Note that the latest camera-ready hard deadline for all workshop papers is October 18, 2019.);</li>
-          <li>A brief statement of the relevance of the workshop to Middleware;</li>
-          <li>A preliminary list of PC members that have accepted to participate in the committee;</li>
-          <li>The submission management system to be used;</li>
-        </ul>
-	<p align="left">Each workshop will organize its own submissions and reviewing procedures, and will provide its own website. A link will be provided to this web page from the Middleware 2019 website. Workshop organizers will ensure that all accepted papers are peer reviewed and will need to upload camera ready and copyrights of all accepted papers in a timely manner through the ACM portal. Organizers will plan their workshop’s schedule so that: (i) the paper submission deadline falls after the main conference's notification date; (ii) authors are notified no later than September 27, 2019; and (iii) authors submit their camera-ready papers no later than October 18, 2019. Accepted papers should be no longer than 6 pages in the standard ACM format. Note that at least one author on each accepted workshop paper must hold a full pre-conference registration. Workshop organizers are responsible for preparing the papers for their workshops in the format required by ACM. As in previous years, the Middleware conference organizers will provide companion proceedings including all workshop papers, which will be available in the ACM Digital Library. This is subject to the availability of camera-ready version by October 18, 2019.
-		</p>
-		<p>We strongly encourage workshop organizers to use <a href="https://hotcrp.com/">HotCRP</a> to collect submissions and manage reviewing. HotCRP is free of charge for Middleware workshops and provides many useful tools, such as to manage copyright assignment, final-version submission, PDF checking, and proceedings construction.</p>
-	<p>Workshop proposals must be sent to:</p>
-		<ul><li>middleware2019-workshops@cs.otago.ac.nz</li></ul>
- 	</div>
-
-            <!-- End Section Title -->
-	    
-	    		<!-- Section Title -->
-            <div class="mr-btm-72">
-                <h2 class="section-title mr-btm-10">Workshops Chairs</h2>
-                <p class="section-title-devider mr-btm-10">~~~~~~~~~~~~~~~</p>
-                <ul align="left">
-                 <li>David Eyers, University of Otago, NZ</li>
-		 <li>Jan Rellermeyer, TU Delft, NL</li>    
-            </div>
-            <!-- End Section Title -->
-                           </div>
-            </div>
-        </div>
     </section>
 
 
