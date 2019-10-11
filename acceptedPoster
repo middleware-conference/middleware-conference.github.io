@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+  <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+  <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+  <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+  <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+
+    <!-- META INFO -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="ThemeAtom Template" />
+    <meta name="keywords" content="grid layout, flexbox grid" />
+    <meta name="author" content="ThemeAtom" />
+
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i|Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i" rel="stylesheet">
+
+    <!-- TILE TAG -->
+    <title>Middleware 2019</title>
+
+    <!-- CSS STYLESHEET -->
+    <link rel="stylesheet" href="assets/lib/revolution/css/settings.css">
+    <link rel="stylesheet" href="assets/lib/revolution/css/layers.css">
+    <link rel="stylesheet" href="assets/lib/revolution/css/navigation.css">
+    <link rel="stylesheet" href="assets/lib/materialize/css/materialize.css">
+    <link rel="stylesheet" href="assets/lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/lib/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/lib/peicon/css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="assets/lib/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/lib/Magnific/magnific-popup.css">
+    <link rel="stylesheet" href="assets/lib/cubeportfolio/css/cubeportfolio.min.css">
+    <link rel="stylesheet" href="assets/css/navigation.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <!--<link rel="stylesheet" href="assets/css/colors/color1.css"> -->
+    <!-- <link rel="stylesheet" href="assets/css/colors/color2.css"> -->
+    <link rel="stylesheet" href="assets/css/colors/color3.css"> 
+    <!-- <link rel="stylesheet" href="assets/css/colors/color4.css"> -->
+    <!-- <link rel="stylesheet" href="assets/css/colors/color5.css"> -->    
+    <!-- <link rel="stylesheet" href="assets/css/colors/color6.css"> -->
+    <!-- <link rel="stylesheet" href="assets/css/colors/color7.css"> -->
+    <!-- <link rel="stylesheet" href="assets/css/colors/color8.css"> -->
+
+    <!-- MODERNIZR -->
+    <script src="assets/js/modernizr.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+ 
+  </head>
+  <body data-spy="scroll" data-target=".navbar-default" data-offset="100">
+
+    <!-- =========================
+         PRE LOADER
+    ============================== -->
+    <div class="preloader">
+      <div class="status">&nbsp;</div>
+    </div>
+
+
+    <!-- ==========================
+        NAVIGATION
+    =========================== -->
+    <!-- Start Navigation -->
+    <div id="top-nav" class="top-nav">
+      <div class="container">
+          <nav id="navigation1" class="navigation">
+
+	      
+              <div class="nav-header">
+		      <!--
+                  <a class="nav-brand logo-white" href="#"><img src="assets/img/logo.png" alt="themeatom"></a>
+                  <a class="nav-brand logo-black" href="#"><img src="assets/img/logo-black.png" alt="themeatom"></a>
+			-->
+                  <div class="nav-toggle"></div>
+              </div>
+	       
+
+              <div class="nav-menus-wrapper">
+		      
+		    <a href="grant.html" class="nav-button btn-alpha-1 align-to-right">Grants</a>
+			<a href="registration.html" class="nav-button btn-alpha-1 align-to-right">Registration</a>
+		      
+                  <ul class="nav-menu align-to-right main-navigation">
+                    <li><a href="index.html">Home</a></li>
+
+		      <li class="nav-active"><a href="#top">Calls</a>
+                          <ul class="nav-dropdown">
+                              <li><a href="research.html">Call for Research Papers</a></li>
+			      <li><a href="industry.html">Call for Industry Papers</a></li>
+			      <li><a href="demo.html">Call for Demos and Posters</a></li>
+            		      <li><a href="workshop.html">Call for Workshops</a></li>
+			      <li><a href="tutorial.html">Call for Tutorials</a></li>
+			      <li><a href="doctoral.html">Call for Doctoral Symposium</a></li>
+                          </ul>
+                      </li>
+                      <li class="nav-active"><a href="#top">Program</a>
+                          <ul class="nav-dropdown">
+				<li><a href="speakers.html">Keynote Speakers</a></li>
+                                <li><a href="#loading">Conference Program</a></li>
+				<li><a href="accepted.html">Accepted Papers</a></li>
+        <li><a href="acceptedPoster.html">Accepted Demos/Posters</a></li>
+				<li><a href="workshop_accepted.html">Workshops</a></li>
+			<!--	<li><a href="blockchainday.html">Blockchain Day</a></li>	-->
+                          </ul>
+                      	</li>
+                      <!--<li><a href="#pricing">Registration</a></li>-->
+		      <li class="nav-active"><a href="#top">Organization</a>
+                          <ul class="nav-dropdown">
+                              <li><a href="organization.html">Organization Committee</a></li>
+				<li><a href="program.html">Program Committee</a></li>
+                          </ul>
+                      </li>
+		      <li class="nav-active"><a href="#top">Participate</a>
+                          <ul class="nav-dropdown">
+				<li><a href="registration.html">Registration</a></li>  
+			      <li><a href="venue.html">Conference Venue</a></li>
+				<li><a href="reception.html">Reception</a></li>
+				<li><a href="banquet.html">Banquet</a></li>
+                              <li><a href="lodging.html">Lodging</a></li>
+			      <li><a href="travel.html">Reaching Davis</a></li>
+				<li><a href="grant.html">Travel Grants</a></li>   
+				<li><a href="visa.html">Requesting Visa Support Letters</a></li>  
+				<li><a href="davis.html">About Davis</a></li>	
+                          </ul>
+                      </li>
+			<li><a href="sponsorship.html">Sponsorship</a></li> 
+                      <!--
+                      <li><a href="#">Pages</a>
+                          <ul class="nav-dropdown">
+                              <li><a href="grid.html">Grid</a></li>
+                              <li><a href="accordion.html">Accordion</a></li>
+                              <li><a href="button.html">Button</a></li>
+                              <li><a href="fun.html">Timer</a></li>
+                              <li><a href="menu-centerd.html">Menu Center</a></li>
+                              <li><a href="price.html">Price</a></li>
+                              <li><a href="schedule.html">Schedule</a></li>
+                              <li><a href="speakers.html">Speakers</a></li>
+                              <li><a href="sponsore.html">Sponsores</a></li>
+                              <li><a href="testimonials.html">Testimonial</a></li>
+                          </ul>
+                      </li> 
+                      
+                      <li><a href="#">Blog</a>
+                          <ul class="nav-dropdown">
+                              <li><a href="blog.html">Blog</a></li>
+                              <li><a href="blog-single.html">Blog Single</a></li>
+                          </ul>
+                      </li>  
+                  </ul>
+                  -->
+              </div>
+
+          </nav>
+      </div>
+  </div>
+  <!-- //End Navigation -->
+
+
+    <!-- ==========================
+        PAGE HEADER SECTION
+    =========================== -->
+    <header class="eventup-page-header text-center section-bg" id="eventup-page-header" data-parallax="scroll" data-position="center center" data-image-src="assets/img/golden-gate-min.jpg">
+      <div class="overlay-one">
+          <div class="container">
+                <div class="eventup-page-hero-wrap">
+                    <h2 class="text-white eventup-page-title">Accepted Demos/Posters</h2>
+                </div>
+
+          </div>
+      </div>
+    </header>
+
+	<!-- ==========================
+        SCHEDULE SECTION
+    =========================== -->
+    <section class="schedule-section section-padding" id="schedule-section">
+        <div class="container">
+
+           <!-- Section Title -->
+ <!--            <div class="section-title-wrap mr-btm-72 text-center">
+                <h2 class="section-title mr-btm-10">Middleware 2019 - Accepted Demos/Posters</h2>
+                <p class="section-title-devider mr-btm-10">~~~~~~~~~~~~~~~</p>
+            </div>	-->
+            <!-- End Section Title -->	
+            <div class="schedule-wrap schedule">
+
+                <!-- Nav tabs -->
+                <ul id="nav-tabs-wrapper" class="nav nav-tabs nav-schedule nav-justified" role="tablist">
+                    <li role="presentation" class="active cross-schedule-tab"><a href="#day12" aria-controls="home" role="tab" data-toggle="tab">Middleware 2019 - Accepted Demos/Posters</a></li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+
+                    <!-- Single Tab -->
+                    <div role="tabpanel" class="table-responsive tab-pane animated animateSlow fadeIn  active" id="day12">
+                        <table class="table cross-schedule-table">
+                            <thead>
+                                <tr>
+                                    <td><strong>Title</strong></td>
+                                    <td><strong>Authors</strong></td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>SlimGuard: A Secure and Memory-Efficient Heap Allocator</strong></td>
+			    		<td>Beichen Liu (Virginia Tech), </br> Pierre Olivier (Virginia Tech), </br> Binoy Ravindran (Virginia Tech)</td>
+                                </tr>
+                                <tr>
+                                    <td>EnclaveCache: A Secure and Scalable Key-valueCache in Multi-tenant Clouds using Intel SGX</th>
+                                    <td>Lixia Chen (Shanghai Jiao Tong University), </br> Jian Li (Shanghai Jiao Tong University),</br> Ruhui Ma (Shanghai Jiao Tong University),</br> Haibing Guan (Shanghai Jiao Tong University),</br> Hans-Arno Jacobsen (University of Toronto)</td>
+                                </tr>
+                                <tr>
+                                    <td>OS-Augmented Oversubscription of Opportunistic Memory with a User-Assisted OOM Killer</th>
+                                    <td>Wei Chen (University of Colorado, Colorado Springs),</br> Aidi Pi (University of Colorado, Colorado Springs),</br> Shaoqi Wang (University of Colorado, Colorado Springs),</br> Xiaobo Zhou (University of Colorado, Colorado Springs)</td>
+                                </tr>
+                                <tr>
+                                    <td>On the FaaS Track: Building Stateful Distributed Applications with Serverless Architectures</th>
+                                    <td>Daniel Barcelona-Pons (Universitat Rovira i Virgili),</br> Marc Sánchez-Artigas (Universitat Rovira i Virgili),</br> Gerard París (Universitat Rovira i Virgili),</br> Pierre Sutra (Télécom SudParis),</br> Pedro García-López (IBM T.J. Watson Research Center)</td>
+                                </tr>
+                                <tr>
+                                    <td>Generalized Consensus for Practical Fault Tolerance</th>
+                                    <td>Mohit Garg (Virginia Tech),</br> Sebastiano Peluso (Virginia Tech),</br> Balaji Arun (Virginia Tech),</br> Binoy Ravindran (Virginia Tech)</td>
+                                </tr>
+                                <tr>
+                                    <td>Scalable Data-structures with Hierarchical, Distributed Delegation</th>
+                                    <td>Gabriel Parmer (The George Washington University),</br> Yuxin Ren (The George Washingtion University)</td>
+                                </tr>
+                                <tr>
+                                    <td>FfDL: A Flexible Multi-tenant Deep Learning Platform</th>
+                                    <td>K. R. Jayaram (IBM Research),</br>
+					Vinod Muthusamy (IBM Research),</br>
+					Parijat Dube (IBM Research),</br>
+					Vatche Ishakian (IBM Research),</br>
+					Chen Wang (IBM Research),</br>
+					Benjamin Herta (IBM Research),</br>
+					Scott Boag (IBM Research),</br>
+					Diana Arroyo (IBM Research),</br>
+					Asser Tantawi (IBM Research),</br>
+					Archit Verma (IBM Research),</br>
+					Falk Pollok (IBM Research),</br>
+					Rania Khalaf (IBM Research)</td>
+                                </tr>
+                                <tr>
+                                    <td>Pando: Personal Volunteer Computing in Browsers</th>
+                                    <td>Erick Lavoie (McGill University, Montreal, Canada),</br>
+					Laurie J. Hendren (McGill University, Montreal, Canada),</br>
+					Frederic Desprez (INRIA Rhône-Alpes, Grenoble, France),</br>
+					Miguel Correia (INESC-ID, Instituto Superior Técnico, Universidade de Lisboa)</td>
+                                </tr>
+				<tr>
+                                    <td>FabricCRDT: A Conflict-Free Replicated Datatypes Approach to Permissioned Blockchains</th>
+                                    <td>Pezhman Nasirifard (Technical University of Munich),</br>
+					Ruben Mayer (Technical University of Munich),</br>
+					Hans-Arno Jacobsen (Technical University of Munich)</td>
+                                </tr>
+				<tr>
+                                    <td>AccTEE: A WebAssembly-based Two-way Sandbox for Trusted Resource Accounting</th>
+                                    <td>David Goltzsche (TU Braunschweig),</br>
+					Manuel Nieke (TU Braunschweig),</br>
+					Thomas Knauth (Intel Corp),</br>
+					Rüdiger Kapitza (TU Braunschweig)</td>
+                                </tr>
+				<tr>
+                                    <td>MooD: MObility Data Privacy as Orphan Disease</th>
+                                    <td>Besma KHALFOUN (LIRIS INSA-Lyon /Ecole nationale supérieure d'informatique (ESI)),</br>
+					Mohamed Maouche (LIRIS INSA-Lyon),</br>
+					Sonia Ben Mokhtar (LIRIS INSA-Lyon),</br>
+					Sara Bouchenak (LIRIS INSA-Lyon)</td>
+                                </tr>
+				<tr>
+                                    <td>Monitorless: Predicting Performance Degradation in Cloud Applications with Machine Learning</th>
+                                    <td>Johannes Grohmann (University of Würzburg),</br>
+					Pat Nicholson (Nokia Bell Labs),</br>
+					Jesus Omana Iglesias (Telefonica Alpha),</br>
+					Samuel Kounev (University of Würzburg),</br>
+					Diego Lugones (Nokia Bell Labs)</td>
+                                </tr>
+				<tr>
+                                    <td>Automating Multi-level Performance Elastic Components for IBM Streams</th>
+                                    <td>Xiang Ni (IBM Research),</br>
+					Scott Schneider (IBM Research),</br>
+					Raju Pavuluri (IBM Research),</br>
+					Jonathan Kaus (IBM),</br>
+					Kun-Lung Wu (IBM Research)</td>
+                                </tr>
+				<tr>
+                                    <td>Self-adaptive Executors for Big Data Processing</th>
+                                    <td>Sobhan Omranian Khorasani (TU Delft),</br>
+					Jan S. Rellermeyer (TU Delft),</br>
+					Dick Epema (TU Delft)</td>,</br>
+                                </tr>
+				<tr>
+                                    <td>PrivaTube: Privacy-Preserving Edge-Assisted Video Streaming</th>
+                                    <td>Simon Da Silva (University of Bordeaux, France),</br>
+					Sonia Ben Mokhtar (CNRS, France),</br>
+					Stefan Contiu (Scille / University of Bordeaux, France),</br>
+					Daniel Négru (University of Bordeaux, France),</br>
+					Laurent Réveillère (University of Bordeaux, France),</br>
+					Etienne Rivière (UCLouvain, Belgium)</td>
+                                </tr>
+				<tr>
+                                    <td>Differential Approximation and Sprinting for Multi-Priority Big Data Engines</th>
+                                    <td>Robert Birke (ABB Corporate Research),</br>
+					Isabelly Rocha (University of Neuchatel),</br>
+					Juan Perez (Universidad del Rosario),</br>
+					Valerio Schiavoni (University of Neuchatel),</br>
+					Pascal Felber (University of Neuchatel),</br>
+					Lydia Y. Chen (TU Delft)</td>
+                                </tr>
+				<tr>
+                                    <td>eSPICE: Probabilistic Load Shedding from Input Event Streams in Complex Event Processing</th>
+                                    <td>Ahmad Slo (University of Stuttgart),</br>
+					Sukanya Bhowmik (University of Stuttgart),</br>
+					Kurt Rothermel (University of Stuttgart)</td>
+                                </tr>
+				<tr>
+                                    <td>Boosting Concurrency in Parallel State Machine Replication</th>
+                                    <td>Ian Aragon Escobar (PUCRS, Brazil),</br>
+					Fernando Luís Dotti (PUCRS, Brazil),</br>
+					Eduardo Alchieri (Universidade de Brasilia, Brazil),</br>
+					Fernando Pedone (University of Lugano, Switzerland)</td>
+                                </tr>
+				<tr>
+                                    <td>Lazarus: Automatic Management of Diversity in BFT Systems</th>
+                                    <td>Miguel Garcia (LASIGE, Faculdade de Ciências, Universidade de Lisboa, Portugal),</br>
+					Alysson Bessani (LASIGE, Faculdade de Ciências, Universidade de Lisboa, Portugal),</br>
+					Nuno Neves (LASIGE, Faculdade de Ciências, Universidade de Lisboa, Portugal)</td>
+                                </tr>
+				<tr>
+                                    <td>Combining it all: Cost minimal and low-latency stream processing across distributed heterogenous infrastructures</th>
+                                    <td>Henriette Röger (University of Stuttgart),</br>
+					Sukanya Bhowmik (University of Stuttgart),</br>
+					Kurt Rothermel (University of Stuttgart)</td>
+                                </tr>
+				<tr>
+                                    <td>ProvMark: A provenance expressiveness benchmarking system</th>
+                                    <td>Sheung Chi Chan (University of Edinburgh),</br>
+					James Cheney (University of Edinburgh),</br>
+					Pramod Bhatotia (University of Edinburgh),</br>
+					Thomas Pasquier (University of Bristol),</br>
+					Ashish Gehani (SRI International),</br>
+					Hassaan Irshad (SRI International),</br>
+					Lucian Carata (University of Cambridge),</br>
+					Margo Seltzer (University of British Columbia)</td>
+                                </tr>
+				<tr>
+                                    <td>ReLAQS: Reducing Latency for Multi-Tenant Approximate Queries via Scheduling</th>
+                                    <td>Logan Stafman (Princeton University),</br>
+					Andrew Or (Princeton University),</br>
+					Michael J. Freedman (Princeton University)</td>
+                                </tr>
+				<tr>
+                                    <td>AquaEIS: Middleware Support for Event Identification in Community Water Infrastructures</th>
+                                    <td>Qing Han (UCI),</br>
+					Sharad Mehrotra (UCI),</br>
+					Nalini Venkatasubramanian (UCI)</td>
+                                </tr>
+				<tr>
+                                    <td>Switchboard: A Middleware for Wide-Area Service Chaining</th>
+                                    <td>Abhigyan Sharma (AT&T Labs Research),</br>
+					Yoji Ozawa (Hitachi),</br>
+					Matti Hiltunen (AT&T Labs Research),</br>
+					Kaustubh Joshi (AT&T Labs Research),</br>
+					Richard Schlichting (United States Naval Academy),</br>
+					Zhaoyu Gao (UMass, Amherst)</td>
+                                </tr>
+				<tr>
+                                    <td>Medley: A Novel Distributed Failure Detector for IoT Network</th>
+                                    <td>Rui Yang (University of Illinois at Urbana Champaign),</br>
+					Shichu Zhu (University of Illinois at Urbana Champaign),</br>
+					Yifei Li (University of Illinois at Urbana Champaign),</br>
+					Indranil Gupta (University of Illinois Urbana-Champaign, USA)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                   </div>	
+
+            </div>
+          </div>
+        </div>
+    </section>    
+    <!-- ==========================
+        ACCORDIONS GROUP
+    =========================== -->
+<!--	    
+    <section class="grid-section section-padding bg-gray" id="grid-section">
+        <div class="container">
+		
+
+		</div>
+		<p align="left"><strong>Participating students are invited to apply for Travel Grants.</strong></p>
+            </div>
+    </section>
+
+
+-->
+
+
+    <!-- ==========================
+        SPONSORS SECTION
+    =========================== -->
+    <section class="sponsors-section section-bg parallax-window" id="sponsors-section" data-parallax="scroll" data-image-src="assets/img/davis-fall-min.jpg">
+        <div class="over-bg-white">
+            <div class="container section-padding">
+
+
+		<div class="section-title-wrap text-center mr-btm-72">
+                    <h2 class="section-title mr-btm-10">Gold Level Sponsor</h2>    
+		    <div class="col-sm-12"><img src="assets/img/cl/siemens.png" width="150" height="150" alt="platinum1.png" class="img-responsive img-center"></div>
+                </div> 
+		<div class="section-title-wrap text-center mr-btm-72">
+                    <h2 class="section-title mr-btm-10">Silver Level Sponsors</h2>
+			<div class="row text-center mr-btm-72">
+			    <div class="col-sm-4"><img src="assets/img/cl/bbnsmall.png" width="150" height="150" alt="platinum1.png" class="img-responsive img-center"></div>
+			    <div class="col-sm-4"><img src="assets/img/HPlogo.png" width="150" height="150" alt="platinum1.png" class="img-responsive img-center"></div>
+			    <div class="col-sm-4"><img src="assets/img/rti.png" width="150" height="150" alt="platinum1.png" class="img-responsive img-center"></div>
+			</div>
+		</div>
+		<div class="section-title-wrap text-center mr-btm-72">
+                    <h2 class="section-title mr-btm-10">Sponsors</h2>    
+			<div class="row text-center mr-btm-72">
+			    <div class="col-sm-4"><img src="assets/img/nsf-small.png" width="150" height="150" alt="platinum1.png" class="img-responsive img-center"></div>	
+			    <div class="col-sm-4"><img src="assets/img/acm-logo-small.png" width="150" height="150" alt="platinum1.png" class="img-responsive img-center"></div>
+			    <div class="col-sm-4"><img src="assets/img/logoIFIP-small.png" width="150" height="150" alt="platinum1.png" class="img-responsive img-center"></div>
+			</div>
+			<div class="row text-center mr-btm-72">		
+			    <div class="col-sm-4"><img src="assets/img/ucdavis-logo1-small.png" width="150" height="150" alt="platinum1.png" class="img-responsive img-center"></div>
+			    <div class="col-sm-4"><img src="assets/img/ucdavis-logo2-small.png" width="150" height="150" alt="platinum1.png" class="img-responsive img-center"></div>
+			    <div class="col-sm-4"><img src="assets/img/ucdavis-logo3-small.png" width="150" height="150" alt="platinum1.png" class="img-responsive img-center"></div>
+			</div>
+		</div>	
+		<div class="section-title-wrap text-center mr-btm-72">
+                    <h2 class="section-title mr-btm-10">In cooperation with</h2> 
+		    <div class="col-sm-12 text-center"><img src="https://www.usenix.org/sites/default/files/usenix310x100.png" width=248 height=80 border=0 alt="The USENIX Association img-center"></div>
+            	</div> 
+	    </div>
+        </div>
+    </section>
+
+
+
+    <!-- JQUERY SCRIPT -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/navigation.min.js"></script>
+    <script src="assets/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/lib/revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script src="assets/lib/revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="assets/lib/materialize/js/materialize.min.js"></script>
+    <script src="assets/lib/Magnific/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jquery.waypoints.js"></script>
+    <script src="assets/js/jquery.matchHeight.js"></script>
+    <script src="assets/js/jquery.inview.min.js"></script>
+    <script src="assets/js/jquery.countTo.min.js"></script>
+    <script src="assets/lib/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAK_LlbYvCMHLbpKbLbN7DozZcHERNAbBE"></script>
+    <script src="assets/js/gmaps.js"></script>
+    <script src="assets/js/socialstream.jquery.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/jquery.nav.js"></script>
+    <script src="assets/js/parallax.min.js"></script>
+
+    <script src="assets/js/main.js"></script>
+
+    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
+    <script src="assets/lib/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="assets/lib/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script src="assets/lib/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="assets/lib/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="assets/lib/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+    <script src="assets/lib/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="assets/lib/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script src="assets/lib/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="assets/lib/revolution/js/extensions/revolution.extension.video.min.js"></script>
+
+  </body>
+</html>
