@@ -161,107 +161,207 @@
 <!-- ==========================
 	First View Schedule
     =========================== -->
-<table>
-    <body>
-        <tr>
-            <th>08:30</th>
-            <td colspan="4" rowspan="2" class="stage-saturn">Morning refreshments</td>
-        </tr>
-        <tr>
-            <th>09:00</th>
-            <td colspan="4" class="stage-earth">Speaker One <span>Earth Stage</span></td>
-        </tr>
-        <tr>
-            <th>09:30</th>
-            <td colspan="4" class="stage-earth">Speaker Two <span>Earth Stage</span></td>
-        </tr>
-        <tr>
-            <th>10:00</th>
-            <td colspan="4" class="stage-earth">Speaker Three <span>Earth Stage</span></td>
-        </tr>
-        <tr>
-            <th>10:30</th>
-            <td colspan="4" class="stage-earth">Speaker Four <span>Earth Stage</span></td>
-        </tr>
-        <tr>
-            <th>11:00</th>
-            <td rowspan="5" class="stage-mercury">Speaker Five <span>Mercury Stage</span></td>
-            <td rowspan="5" class="stage-venus">Speaker Six <span>Venus Stage</span></td>
-            <td rowspan="5" class="stage-mars">Speaker Seven <span>Mars Stage</span></td>
-            <td rowspan="2" class="stage-saturn">Lunch</td>
-        </tr>
-        <tr>
-            <th>11:30</th>
-        </tr>
-        <tr>
-            <th>12:00</th>
-            <td rowspan="3" class="stage-saturn">Break</td>
-        </tr>
-        <tr>
-            <th>12:30</th>
-        </tr>
-        <tr>
-            <th>13:00</th>
-        </tr>
-        <tr>
-            <th>13:30</th>
-            <td colspan="4" rowspan="2" class="stage-earth">Speaker Eight <span>Earth Stage</span></td>
-        </tr>
-        <tr>
-            <th>14:00</th>
-        </tr>
-        <tr>
-            <th>14:30</th>
-            <td colspan="4" rowspan="8" class="stage-saturn">Break</td>
-        </tr>
-        <tr>
-            <th>15:00</th>
-        </tr>
-        <tr>
-            <th>15:30</th>
-        </tr>
-        <tr>
-            <th>16:00</th>
-        </tr>
-        <tr>
-            <th>16:30</th>
-        </tr>
-        <tr>
-            <th>17:00</th>
-        </tr>
-        <tr>
-            <th>17:30</th>
-        </tr>
-        <tr>
-            <th>18:00</th>
-        </tr>
-        <tr>
-            <th>18:30</th>
-            <td colspan="4" class="stage-earth">Speaker Nine <span>Earth Stage</span></td>
-        </tr>
-        <tr>
-            <th>19:00</th>
-            <td colspan="2" rowspan="2" class="stage-earth">Speaker Ten <span>Earth Stage</span></td>
-            <td colspan="2" rowspan="2" class="stage-jupiter">Speaker Eleven <span>Jupiter Stage</span></td>
-        </tr>
-        <tr>
-            <th>19:30</th>
-        </tr>
-        <tr>
-            <th>20:00</th>
-            <td colspan="2" class="stage-mars">Speaker Twelve <span>Mars Stage</span></td>
-            <td class="stage-jupiter">Speaker Thirteen <span>Jupiter Stage</span></td>
-            <td class="stage-jupiter">Speaker Fourteen <span>Jupiter Stage</span></td>
-        </tr>
-        <tr>
-            <th>20:30</th>
-            <td colspan="4" rowspan="2" class="stage-saturn">Drinks</td>
-        </tr>
-        <tr>
-            <th>21:00</th>
-        </tr>
-    </body>
-</table>
+<body>
+  <div class="cd-schedule cd-schedule--loading margin-top-lg margin-bottom-lg js-cd-schedule">
+    <div class="cd-schedule__timeline">
+      <ul>
+	<li><span>08:30</span></li>      
+        <li><span>09:00</span></li>
+        <li><span>09:30</span></li>
+        <li><span>10:00</span></li>
+        <li><span>10:30</span></li>
+        <li><span>11:00</span></li>
+        <li><span>11:30</span></li>
+        <li><span>12:00</span></li>
+        <li><span>12:30</span></li>
+        <li><span>13:00</span></li>
+        <li><span>13:30</span></li>
+        <li><span>14:00</span></li>
+        <li><span>14:30</span></li>
+        <li><span>15:00</span></li>
+        <li><span>15:30</span></li>
+        <li><span>16:00</span></li>
+        <li><span>16:30</span></li>
+        <li><span>17:00</span></li>
+        <li><span>17:30</span></li>
+        <li><span>18:00</span></li>
+        <li><span>18:30</span></li>
+        <li><span>19:00</span></li>
+        <li><span>19:30</span></li>
+        <li><span>20:00</span></li>
+        <li><span>20:30</span></li>
+        <li><span>21:00</span></li>
+        <li><span>21:30</span></li>
+	<li><span>22:00</span></li>      
+      </ul>
+    </div> <!-- .cd-schedule__timeline -->
+  
+    <div class="cd-schedule__events">
+      <ul>
+        <li class="cd-schedule__group">
+          <div class="cd-schedule__top-info"><span>Monday</span></div>
+  
+          <ul>
+            <li class="cd-schedule__event">
+              <a data-start="09:30" data-end="10:30" data-content="event-abs-circuit" data-event="event-1" href="#0">
+                <em class="cd-schedule__name">Abs Circuit</em>
+              </a>
+            </li>
+  
+            <li class="cd-schedule__event">
+              <a data-start="11:00" data-end="12:30" data-content="event-rowing-workout" data-event="event-2" href="#0">
+                <em class="cd-schedule__name">Rowing Workout</em>
+              </a>
+            </li>
+  
+            <li class="cd-schedule__event">
+              <a data-start="14:00" data-end="15:15"  data-content="event-yoga-1" data-event="event-3" href="#0">
+                <em class="cd-schedule__name">Yoga Level 1</em>
+              </a>
+            </li>
+          </ul>
+        </li>
+  
+        <li class="cd-schedule__group">
+          <div class="cd-schedule__top-info"><span>Tuesday</span></div>
+  
+          <ul>
+            <li class="cd-schedule__event">
+              <a data-start="10:00" data-end="11:00"  data-content="event-rowing-workout" data-event="event-2" href="#0">
+                <em class="cd-schedule__name">Rowing Workout</em>
+              </a>
+            </li>
+  
+            <li class="cd-schedule__event">
+              <a data-start="11:30" data-end="13:00"  data-content="event-restorative-yoga" data-event="event-4" href="#0">
+                <em class="cd-schedule__name">Restorative Yoga</em>
+              </a>
+            </li>
+  
+            <li class="cd-schedule__event">
+              <a data-start="13:30" data-end="15:00" data-content="event-abs-circuit" data-event="event-1" href="#0">
+                <em class="cd-schedule__name">Abs Circuit</em>
+              </a>
+            </li>
+  
+            <li class="cd-schedule__event">
+              <a data-start="15:45" data-end="16:45"  data-content="event-yoga-1" data-event="event-3" href="#0">
+                <em class="cd-schedule__name">Yoga Level 1</em>
+              </a>
+            </li>
+          </ul>
+        </li>
+  
+        <li class="cd-schedule__group">
+          <div class="cd-schedule__top-info"><span>Wednesday</span></div>
+  
+          <ul>
+            <li class="cd-schedule__event">
+              <a data-start="09:00" data-end="10:15" data-content="event-restorative-yoga" data-event="event-4" href="#0">
+                <em class="cd-schedule__name">Restorative Yoga</em>
+              </a>
+            </li>
+  
+            <li class="cd-schedule__event">
+              <a data-start="10:45" data-end="11:45" data-content="event-yoga-1" data-event="event-3" href="#0">
+                <em class="cd-schedule__name">Yoga Level 1</em>
+              </a>
+            </li>
+  
+            <li class="cd-schedule__event">
+              <a data-start="12:00" data-end="13:45"  data-content="event-rowing-workout" data-event="event-2" href="#0">
+                <em class="cd-schedule__name">Rowing Workout</em>
+              </a>
+            </li>
+  
+            <li class="cd-schedule__event">
+              <a data-start="13:45" data-end="15:00" data-content="event-yoga-1" data-event="event-3" href="#0">
+                <em class="cd-schedule__name">Yoga Level 1</em>
+              </a>
+            </li>
+          </ul>
+        </li>
+  
+        <li class="cd-schedule__group">
+          <div class="cd-schedule__top-info"><span>Thursday</span></div>
+  
+          <ul>
+            <li class="cd-schedule__event">
+              <a data-start="09:30" data-end="10:30" data-content="event-abs-circuit" data-event="event-1" href="#0">
+                <em class="cd-schedule__name">Abs Circuit</em>
+              </a>
+            </li>
+  
+            <li class="cd-schedule__event">
+              <a data-start="12:00" data-end="13:45" data-content="event-restorative-yoga" data-event="event-4" href="#0">
+                <em class="cd-schedule__name">Restorative Yoga</em>
+              </a>
+            </li>
+  
+            <li class="cd-schedule__event">
+              <a data-start="15:30" data-end="16:30" data-content="event-abs-circuit" data-event="event-1" href="#0">
+                <em class="cd-schedule__name">Abs Circuit</em>
+              </a>
+            </li>
+  
+            <li class="cd-schedule__event">
+              <a data-start="17:00" data-end="18:30"  data-content="event-rowing-workout" data-event="event-2" href="#0">
+                <em class="cd-schedule__name">Rowing Workout</em>
+              </a>
+            </li>
+          </ul>
+        </li>
+  
+        <li class="cd-schedule__group">
+          <div class="cd-schedule__top-info"><span>Friday</span></div>
+  
+          <ul>
+            <li class="cd-schedule__event">
+              <a data-start="10:00" data-end="11:00"  data-content="event-rowing-workout" data-event="event-2" href="#0">
+                <em class="cd-schedule__name">Rowing Workout</em>
+              </a>
+            </li>
+  
+            <li class="cd-schedule__event">
+              <a data-start="12:30" data-end="14:00" data-content="event-abs-circuit" data-event="event-1" href="#0">
+                <em class="cd-schedule__name">Abs Circuit</em>
+              </a>
+            </li>
+  
+            <li class="cd-schedule__event">
+              <a data-start="15:45" data-end="16:45"  data-content="event-yoga-1" data-event="event-3" href="#0">
+                <em class="cd-schedule__name">Yoga Level 1</em>
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  
+    <div class="cd-schedule-modal">
+      <header class="cd-schedule-modal__header">
+        <div class="cd-schedule-modal__content">
+          <span class="cd-schedule-modal__date"></span>
+          <h3 class="cd-schedule-modal__name"></h3>
+        </div>
+  
+        <div class="cd-schedule-modal__header-bg"></div>
+      </header>
+  
+      <div class="cd-schedule-modal__body">
+        <div class="cd-schedule-modal__event-info"></div>
+        <div class="cd-schedule-modal__body-bg"></div>
+      </div>
+  
+      <a href="#0" class="cd-schedule-modal__close text-replace">Close</a>
+    </div>
+  
+    <div class="cd-schedule__cover-layer"></div>
+  </div> <!-- .cd-schedule -->
+
+  <script src="assets/js/util.js"></script> <!-- util functions included in the CodyHouse framework -->
+  <script src="assets/js/main1.js"></script>
+</body>
 	    
     <!-- ==========================
         SCHEDULE SECTION
