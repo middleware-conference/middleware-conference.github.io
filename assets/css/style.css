@@ -3354,10 +3354,10 @@ textarea {
   padding: 20px;
   background: #fff;
   border-radius: 5px;
-  width: 90%;
+  width: 85%;
   position: relative;
   transition: all 5s ease-in-out;
-    overflow:scroll;
+    overflow-y:scroll;
 }
 
 .popup h2 {
@@ -3379,7 +3379,7 @@ textarea {
   color: #06D85F;
 }
 .popup .content {
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 @media screen and (max-width: 700px){
